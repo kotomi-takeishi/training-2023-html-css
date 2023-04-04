@@ -149,6 +149,7 @@ h6 {
   padding-left: 24px;
   @media (min-width: 1024px) {
     margin: 0 auto;
+    box-sizing: content-box;
   }
 }
 
