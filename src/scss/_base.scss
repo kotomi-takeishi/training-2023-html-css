@@ -3,7 +3,8 @@ body {
   font-family: var.$font-base;
   color: var.$gray900;
   overflow-wrap: break-word;
-  line-height: 1.8;
+  //デフォルトでbodyに設定されているline-heightの方が優先される
+  line-height: 1.8!important;
 }
 ol,
 ul,
@@ -90,6 +91,10 @@ h6 {
   }
 }
 
+.block-inline {
+  display: inline-block;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -166,8 +171,4 @@ h6 {
 
 .font-bold {
   font-weight: 700;
-}
-
-.mb24 {
-  margin-bottom: 24px;
 }

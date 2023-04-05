@@ -1,4 +1,4 @@
-.title {
+.office-title {
   position: relative;
   box-sizing: content-box;
   max-width: 1080px;
@@ -8,43 +8,39 @@
   color: #2340b7;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .title {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    text-align: left;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .title {
-    margin: 0 auto;
-  }
-}
-.title .title-main {
+.office-title__main {
   display: block;
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
-@media screen and (min-width: 768px) {
-  .title .title-main {
-    font-size: 5.5rem;
-    letter-spacing: 0.08em;
-  }
-}
-.title .title-sub {
+.office-title__sub {
   display: block;
   font-size: 0.875rem;
   letter-spacing: 0.25em;
 }
 @media screen and (min-width: 768px) {
-  .title .title-sub {
+  .office-title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+  .office-title__main {
+    font-size: 5.5rem;
+    letter-spacing: 0.08em;
+  }
+  .office-title__sub {
     font-size: 1.375rem;
     letter-spacing: 0.16em;
   }
 }
+@media screen and (min-width: 1024px) {
+  .office-title {
+    margin: 0 auto;
+  }
+}
 
-.main-visual {
+.office-visual {
   position: relative;
   box-sizing: content-box;
   max-width: 1080px;
@@ -57,14 +53,7 @@
   opacity: 1;
   transition: all 1.2s ease 300ms;
 }
-@media screen and (min-width: 1024px) {
-  .main-visual {
-    padding: 0px 24px;
-    margin: 0px auto;
-  }
-}
-
-.main-visual-title {
+.office-visual__title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -75,8 +64,16 @@
   white-space: nowrap;
   border: 0;
 }
+.office-visual__img {
+  max-width: 727px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 1024px) {
-  .main-visual-title {
+  .office-visual {
+    padding: 0px 24px;
+    margin: 0px auto;
+  }
+  .office-visual__title {
     position: static;
     width: auto;
     height: auto;
@@ -87,36 +84,41 @@
     border: 0;
     width: 212px;
   }
-}
-
-.main-visual-img {
-  max-width: 727px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1024px) {
-  .main-visual-img {
+  .office-visual__img {
     margin: 0;
   }
 }
 
-.introduction-content {
+.office-introduction {
   padding: 40px 0;
   background-color: #ebebf2;
 }
-@media screen and (min-width: 1024px) {
-  .introduction-content {
-    padding: 100px 0 80px;
-  }
-}
-
-.introduction-content-block {
+.office-introduction__content {
   position: relative;
   box-sizing: content-box;
   max-width: 1080px;
   padding: 0 24px;
 }
+.office-introduction__content__text {
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+.office-introduction__content__text__bold {
+  font-size: 1rem;
+  font-weight: 700;
+}
 @media screen and (min-width: 1024px) {
-  .introduction-content-block {
+  .office-introduction {
+    padding: 100px 0 80px;
+  }
+  .office-introduction__content {
     margin: 0 auto;
+  }
+  .office-introduction__content__text {
+    font-size: 1.125rem;
+    margin-bottom: 40px;
+  }
+  .office-introduction__content__text__bold {
+    font-size: 1.125rem;
   }
 }
