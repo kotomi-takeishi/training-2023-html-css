@@ -3,8 +3,10 @@ body {
   font-family: var.$font-base;
   color: var.$gray900;
   overflow-wrap: break-word;
-  //デフォルトでbodyに設定されているline-heightの方が優先される
-  line-height: 1.8!important;
+  line-height: 1.8;
+}
+main {
+  line-height: 1.8;
 }
 ol,
 ul,

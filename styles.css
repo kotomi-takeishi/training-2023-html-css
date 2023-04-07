@@ -93,17 +93,17 @@
   padding: 40px 0;
   background-color: #ebebf2;
 }
-.office-introduction__content {
+.office-introduction__text {
   position: relative;
   box-sizing: content-box;
   max-width: 1080px;
   padding: 0 24px;
 }
-.office-introduction__content__text {
+.office-introduction__text--nomal {
   font-size: 1rem;
   margin-bottom: 24px;
 }
-.office-introduction__content__text__bold {
+.office-introduction__text--em {
   font-size: 1rem;
   font-weight: 700;
 }
@@ -111,14 +111,14 @@
   .office-introduction {
     padding: 100px 0 80px;
   }
-  .office-introduction__content {
+  .office-introduction__text {
     margin: 0 auto;
   }
-  .office-introduction__content__text {
+  .office-introduction__text--nomal {
     font-size: 1.125rem;
     margin-bottom: 40px;
   }
-  .office-introduction__content__text__bold {
+  .office-introduction__text--em {
     font-size: 1.125rem;
   }
 }
