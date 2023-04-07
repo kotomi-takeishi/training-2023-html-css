@@ -93,13 +93,13 @@
   padding: 40px 0;
   background-color: #ebebf2;
 }
-.office-introduction__text {
+.office-introduction__content {
   position: relative;
   box-sizing: content-box;
   max-width: 1080px;
   padding: 0 24px;
 }
-.office-introduction__text--nomal {
+.office-introduction__text {
   font-size: 1rem;
   margin-bottom: 24px;
 }
@@ -111,10 +111,10 @@
   .office-introduction {
     padding: 100px 0 80px;
   }
-  .office-introduction__text {
+  .office-introduction__content {
     margin: 0 auto;
   }
-  .office-introduction__text--nomal {
+  .office-introduction__text {
     font-size: 1.125rem;
     margin-bottom: 40px;
   }
