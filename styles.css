@@ -172,7 +172,7 @@
   border-radius: 2px;
 }
 
-.office-content__link__icon {
+.office-content__icon {
   position: absolute;
   right: 16px;
   transition: transform 0.2s;
@@ -201,7 +201,7 @@
     margin: 0 auto;
   }
 
-  .office-content__link:hover .office-content__link__icon {
+  .office-content__link:hover .office-content__icon {
     transform: translateX(8px);
   }
 }
