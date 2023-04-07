@@ -5,6 +5,9 @@ body {
   overflow-wrap: break-word;
   line-height: 1.8;
 }
+main {
+  line-height: 1.8;
+}
 ol,
 ul,
 li {
@@ -90,6 +93,10 @@ h6 {
   }
 }
 
+.block-inline {
+  display: inline-block;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -166,8 +173,4 @@ h6 {
 
 .font-bold {
   font-weight: 700;
-}
-
-.mb24 {
-  margin-bottom: 24px;
 }
